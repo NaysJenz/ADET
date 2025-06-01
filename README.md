@@ -1,7 +1,89 @@
+# 📘 Final Project: Dynamic Web Application using Next.js and Tailwind CSS
+
+## 📄 Project Description
+
+This project is a responsive and dynamic web application built using **Next.js**, **Tailwind CSS**, and **ShadCN UI**. It simulates a simple social platform with user registration, login functionality, and a newsfeed feature where users can post and comment. The app also includes map integration for selecting addresses during registration.
+
+Key features include:
+
+* User **Registration** with address selection using **MapLibre**
+* **Login** authentication system
+* **Newsfeed/Post page** where users can create posts and leave comments
+* Basic form validation using **Zod**
+
+The project integrates data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) for handling users, posts, and comments.
+
+---
+
+## ⚙️ Setup and Installation Instructions
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-team-name/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+
+   ```
+   http://localhost:3000
+   ```
+
+> Make sure you have Node.js v18 or higher installed.
+
+---
+
+## 👥 Team Member Contributions
+
+| Member Name       | Contribution                                                                                  |
+| ----------------- | --------------------------------------------------------------------------------------------- |
+| **Abby Golimlim** | Developed the **Registration Page**, including **MapLibre** integration for address selection |
+| **Jack Atorda**   | Created the **Login Page** and authentication system                                          |
+| **Ryan Dejucos**  | Developed the **Newsfeed/Post Page** where users can create posts and comment                 |
+| **Rollen Setera** | Helped build the **Post and Comment system**                                                  |
+| **Jenzel Zuniga** | Worked on the **remaining features**, layout, routing, and integration tasks                  |
+
+---
+
+## 🌐 Deployed URL
+
+Live version: **[https://adet-svu6-git-main-naysjenzs-projects.vercel.app/](https://adet-svu6-git-main-naysjenzs-projects.vercel.app/)**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash

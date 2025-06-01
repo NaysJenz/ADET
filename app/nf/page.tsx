@@ -1,4 +1,3 @@
-// app/posts/page.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -7,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
-import { ProfileDropdown } from "@/components/ui/ProfileDropdown";
 
 interface Post {
   id: number;
@@ -82,13 +80,13 @@ export default function PostPage() {
           🏠 Home
         </Link>
         <nav className="flex items-center gap-4">
-          <Button 
-            variant="outline" 
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          >
+          <Button variant="outline" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             ➕ New Post
           </Button>
-          <ProfileDropdown />
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-full bg-gray-300" />
+            <span className="text-sm font-medium">User Name</span>
+          </div>
         </nav>
       </header>
 
